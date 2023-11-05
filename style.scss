@@ -1,0 +1,96 @@
+body {
+    background-color: #cefafa;
+}
+
+.main {
+    font-family: 'Times New Roman', Times, serif;
+
+    text-align: center;
+    background-color: rgb(55, 55, 87);
+    padding: 15px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.container {
+    background-color: rgb(163, 183, 240);
+    padding: 20px;
+    border-radius: 20px;
+    border: 6px solid #380583;
+    display: flex;
+    justify-content: space-evenly;
+}
+.name{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.wo {
+    width: 350px;
+    padding-left: 30px;
+}
+
+.line-separator {
+    border-right: 4px solid #000;
+}
+
+h3 {
+    background-color: rgb(38, 34, 80);
+    border-radius: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 300px;
+    border-radius: 30px;
+}
+#searchr{
+    margin-top: 20px;
+}
+.button {
+    background-color: rgb(90, 63, 212);
+    color: #fff;
+    width: 200px;
+    border-radius: 30px;
+    align-items: center;
+    transition: transform 0.2s;
+    cursor: pointer;
+    padding: 8px 10px;
+}
+
+.button:hover {
+    background-color: #080808;
+    transform: scale(1.1);
+}
+
+.search {
+    padding: 10px;
+    width: 300px;
+    border-radius: 30px;
+}
+
+@media (max-width: 760px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wo {
+        width: 90%;
+    }
+
+    input[type="text"] {
+        width: 90%;
+    }
+}
